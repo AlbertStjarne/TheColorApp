@@ -78,6 +78,7 @@ class PaletteMetaForm extends Component {
                 Please enter a name for your new palette. Make sure it's unique.
               </DialogContentText>
               <TextValidator
+                autoFocus
                 label='Palette Name'
                 value={newPaletteName}
                 name='newPaletteName'
